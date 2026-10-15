@@ -1,7 +1,7 @@
 # Typst SAGE journal template
 
 This repository contains a SAGE journal template for Typst papers.
-`template.typ` reproduces the layout of SAGE's `sagej.cls` v1.01, which is the common styling across all SAGE journals.
+`sagej.typ` reproduces the layout of SAGE's `sagej.cls` v1.01, which is the common styling across all SAGE journals.
 The class's options are arguments to `paper`.
 
 ## Examples
