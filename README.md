@@ -38,7 +38,7 @@ To set up another journal, copy `ijrr.typ` and change the `paper.with(...)` argu
 | `numbering`                                               | `none` (default, the class leaves sections unnumbered) or a pattern such as `"1.1."`                                                                               | `secnumdepth`                        |
 | `journal`                                                 | dictionary with `name`, `volume`, `issue`, `year`, `doi`, `permissions`, `url`, `logo`; omitted keys keep the placeholders in `journal-defaults`                   | `\journalname`, `\volumenumber`, ... |
 | `fonts`                                                   | dictionary with `serif`, `sans`, `mono`                                                                                                                            |                                      |
-| `version` | the version of this template shown on the first page's footer; defaults to `template-version` | `\update` |
+| `version`                                                 | the version of this template shown on the first page's footer; defaults to `template-version`                                                                      | `\update`                            |
 | `title`, `short-title`, `authors`, `abstract`, `keywords` | as in `example.typ`                                                                                                                                                | `\title`, `\runninghead`, ...        |
 
 `PCfour` sets the title block and captions in the serif face, as the class does.
